@@ -7,4 +7,4 @@ def email():
     st.markdown("""First: Turn on 2 step verification
             1. Login to your Gmail account. In the upper-right corner, select your Image. From the menu, click on Manage your Gmail account.""")
     im=Image.open("pic1.png")
-    #st.image(im)
+    st.image(im)
