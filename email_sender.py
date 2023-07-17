@@ -23,4 +23,5 @@ def email():
         st.markdown("6. A box appears with the password in it. Now you can copyapp password and use it.")
         #im6=Image.open("pic6.png")
         #st.image(im6)
-    st.markdwon("**Step2:** Create an interface for the email sender") 
+    
+    st.markdown("**Step2:** Create an interface for the email sender") 
