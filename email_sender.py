@@ -3,9 +3,9 @@ from PIL import Image
 
 def email():
     st.header("How to create an interface for email automation with Streamlit-Python :")
-    st.markdown("Step 1: get your password from gmail:")
-    with st.expander("**:blue[First: Turn on 2 step verification]**"):
-        st.markdown("1. Login to your Gmail account. In the upper-right corner, select your Image. From the menu, click on **Manage your Gmail account**.")
+    st.markdown("**Step 1:** Get your password from gmail:")
+    with st.expander("**:blue[ Turn on 2 step verification]**"):
+        st.markdown("**1.** Login to your Gmail account. In the upper-right corner, select your Image. From the menu, click on **Manage your Gmail account**.")
         im1=Image.open("pic1.png")
         st.image(im1)
         st.markdown("2. Click on the **Security** button in the left-hand sidebar.")
@@ -23,3 +23,4 @@ def email():
         st.markdown("6. A box appears with the password in it. Now you can copyapp password and use it.")
         #im6=Image.open("pic6.png")
         #st.image(im6)
+    st.markdwon("**Step2:** Create an interface for the email sender") 
