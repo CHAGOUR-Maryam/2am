@@ -25,3 +25,5 @@ def email():
         #st.image(im6)
     
     st.markdown("**Step2:** Create an interface for the email sender") 
+        im7= Image.open("pic7.png")
+        st.image(im7)
